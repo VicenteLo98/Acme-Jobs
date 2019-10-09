@@ -18,8 +18,12 @@
 
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
+	
+		<%--josruialb--%>
+		
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/"/>
+            <acme:menu-suboption code="master.menu.anonymous.favourite-linkJ" action="https://play.pokemonshowdown.com"/> <%--josruialb--%>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
@@ -30,10 +34,14 @@
 
 		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">
 			<acme:menu-suboption code="master.menu.provider.favourite-link" action="http://www.example.com/"/>
+	    	<acme:menu-suboption code="master.menu.provider.favourite-linkJ" action="https://play.pokemonshowdown.com"/> <%--josruialb--%>		
+	
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.consumer" access="hasRole('Consumer')">
 			<acme:menu-suboption code="master.menu.consumer.favourite-link" action="http://www.example.com/"/>
+			<acme:menu-suboption code="master.menu.consumer.favourite-linkJ" action="https://play.pokemonshowdown.com"/> <%--josruialb--%>	
+		
 		</acme:menu-option>
 	</acme:menu-left>
 

@@ -8,6 +8,7 @@
 - this software. It has been tested carefully, but it is not guaranteed for any particular
 - purposes.  The copyright owner does not offer any warranties or representations, nor do
 - they accept any liabilities with respect to them.
+<acme:message code='master.banner.background'/>">
 --%>
 
 <%@page language="java"%>
