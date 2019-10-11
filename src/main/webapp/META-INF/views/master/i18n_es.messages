@@ -33,6 +33,7 @@ master.menu.anonymous.favourite-link = Enlace favorito
 master.menu.anonymous.favourite-linkJ = Enlace de Josruialb
 master.menu.anonymous.favourite-linkV = Enlace de Viclopvaz1
 master.menu.anonymous.favourite-linkA = Enlace de Albcorare26
+master.menu.anonymous.favourite-linkD = Enlace de dansangar2
 
 # master.menu.administrator ###################################################
 
@@ -47,6 +48,7 @@ master.menu.provider.favourite-link = Enlace favorito
 master.menu.provider.favourite-linkJ = Enlace de Josruialb
 master.menu.provider.favourite-linkV = Enlace de Viclopvaz1
 master.menu.provider.favourite-linkA = Enlace de Albcorare26
+master.menu.anonymous.favourite-linkD = Enlace de dansangar2
 
 # master.menu.consumer ##########################################################
 

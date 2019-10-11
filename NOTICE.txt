@@ -30,4 +30,5 @@ The contributors of this project are:
 
 -José Ruiz Alba Worker
 	hola editado por alberto
+	hola también por Daniel
 
