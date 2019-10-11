@@ -21,11 +21,13 @@
 	
 		<%--josruialb--%>
 		<%--viclopvaz1--%>
+		<%--albcorare26--%>
 		
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/"/>
             <acme:menu-suboption code="master.menu.anonymous.favourite-linkJ" action="https://play.pokemonshowdown.com"/> <%--josruialb--%>
             <acme:menu-suboption code="master.menu.anonymous.favourite-linkV" action="https://www.twitch.tv"/> <%--viclopvaz1--%>
+            <acme:menu-suboption code="master.menu.anonymous.favourite-linkA" action="https://www.youtube.com/?hl=es&gl=ES"/> <%--albcorare26--%>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
@@ -37,7 +39,8 @@
 		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">
 			<acme:menu-suboption code="master.menu.provider.favourite-link" action="http://www.example.com/"/>
 	    	<acme:menu-suboption code="master.menu.provider.favourite-linkJ" action="https://play.pokemonshowdown.com"/> <%--josruialb--%>
-	    	<acme:menu-suboption code="master.menu.provider.favourite-linkV" action="https://www.twitch.tv"/> <%--viclopvaz1--%>		
+	    	<acme:menu-suboption code="master.menu.provider.favourite-linkV" action="https://www.twitch.tv"/> <%--viclopvaz1--%>
+	    	<acme:menu-suboption code="master.menu.provider.favourite-linkA" action="https://www.youtube.com/?hl=es&gl=ES"/> <%--albcorare26--%>		
 	
 		</acme:menu-option>
 
@@ -45,7 +48,7 @@
 			<acme:menu-suboption code="master.menu.consumer.favourite-link" action="http://www.example.com/"/>
 			<acme:menu-suboption code="master.menu.consumer.favourite-linkJ" action="https://play.pokemonshowdown.com"/> <%--josruialb--%>
 			<acme:menu-suboption code="master.menu.consumer.favourite-linkV" action="https://www.twitch.tv"/> <%--viclopvaz1--%>	
-		
+			<acme:menu-suboption code="master.menu.consumer.favourite-linkA" action="https://www.youtube.com/?hl=es&gl=ES"/> <%--albcorare26--%>
 		</acme:menu-option>
 	</acme:menu-left>
 
