@@ -30,7 +30,7 @@
             <acme:menu-suboption code="master.menu.anonymous.favourite-linkV" action="https://www.twitch.tv"/> <%--viclopvaz1--%>
             <acme:menu-suboption code="master.menu.anonymous.favourite-linkA" action="https://www.youtube.com/?hl=es&gl=ES"/> <%--albcorare26--%>
             <acme:menu-suboption code="master.menu.anonymous.favourite-linkD" action="https://smashbros.com/es_ES/"/> <%--dnsangar2--%>
-             <acme:menu-suboption code="master.menu.anonymous.favourite-linkAC" action="https://www.voxespana.es"/> <%--antcorlav--%>
+             <acme:menu-suboption code="master.menu.anonymous.favourite-linkAC" action="https://open.spotify.com/browse/featured"/> <%--antcorlav--%>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
@@ -45,7 +45,7 @@
 	    	<acme:menu-suboption code="master.menu.provider.favourite-linkV" action="https://www.twitch.tv"/> <%--viclopvaz1--%>
 	    	<acme:menu-suboption code="master.menu.provider.favourite-linkA" action="https://www.youtube.com/?hl=es&gl=ES"/> <%--albcorare26--%>
 	    	<acme:menu-suboption code="master.menu.anonymous.favourite-linkD" action="https://smashbros.com/es_ES/"/> <%--dnsangar2--%>		
-	
+			<acme:menu-suboption code="master.menu.provider.favourite-linkAC" action="https://open.spotify.com/browse/featured"/> <%--antcorlav--%>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.consumer" access="hasRole('Consumer')">
@@ -54,6 +54,7 @@
 			<acme:menu-suboption code="master.menu.consumer.favourite-linkV" action="https://www.twitch.tv"/> <%--viclopvaz1--%>	
 			<acme:menu-suboption code="master.menu.consumer.favourite-linkA" action="https://www.youtube.com/?hl=es&gl=ES"/> <%--albcorare26--%>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-linkD" action="https://smashbros.com/es_ES/"/> <%--dnsangar2--%>
+			<acme:menu-suboption code="master.menu.consumer.favourite-linkAC" action="https://open.spotify.com/browse/featured"/> <%--antcorlav--%>
 		</acme:menu-option>
 	</acme:menu-left>
 

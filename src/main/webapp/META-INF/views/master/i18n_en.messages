@@ -34,6 +34,7 @@ master.menu.anonymous.favourite-linkJ = Favourite link josruialb
 master.menu.anonymous.favourite-linkV = Favourite link viclopvaz1
 master.menu.anonymous.favourite-linkA = Favourite link albcorare26
 master.menu.anonymous.favourite-linkD = Favourite link dansangar2
+master.menu.anonymous.favourite-linkAC = Favourite link antcorlav
 
 
 # master.menu.administrator ###################################################
@@ -50,6 +51,7 @@ master.menu.provider.favourite-linkJ = Favourite link josruialb
 master.menu.provider.favourite-linkV = Favourite link viclopvaz1
 master.menu.provider.favourite-linkA = Favourite link albcoare26
 master.menu.anonymous.favourite-linkD = Favourite link dansangar2
+master.menu.provider.favourite-linkAC = Favourite link antcorlav
 
 # master.menu.consumer ##########################################################
 
@@ -59,7 +61,7 @@ master.menu.consumer.favourite-linkJ = Favourite link josruialb
 master.menu.consumer.favourite-linkV = Favourite link viclopvaz1
 master.menu.consumer.favourite-linkA = Favourite link albcoare26
 master.menu.anonymous.favourite-linkD = Favourite link dansangar2
-master.menu.anonymous.favourite-linkAC = Favourite link antcorlav
+master.menu.consumer.favourite-linkAC = Favourite link antcorlav
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Account
