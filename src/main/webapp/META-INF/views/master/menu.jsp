@@ -31,6 +31,11 @@
             <acme:menu-suboption code="master.menu.anonymous.favourite-linkA" action="https://www.youtube.com/?hl=es&gl=ES"/> <%--albcorare26--%>
             <acme:menu-suboption code="master.menu.anonymous.favourite-linkD" action="https://smashbros.com/es_ES/"/> <%--dnsangar2--%>
              <acme:menu-suboption code="master.menu.anonymous.favourite-linkAC" action="https://open.spotify.com/browse/featured"/> <%--antcorlav--%>
+             
+             <acme:menu-separator />
+
+			<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/create" />
+			<acme:menu-suboption code="master.menu.anonymous.list-shout" action="/anonymous/shout/list" />
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
