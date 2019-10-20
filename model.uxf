@@ -296,4 +296,19 @@ m2=*
 has v</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>182</x>
+      <y>378</y>
+      <w>154</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Bulletin
+--
++ name: String(NotBlank)
++ text: String(NotBlank)</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
