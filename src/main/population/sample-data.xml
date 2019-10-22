@@ -16,30 +16,4 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="conversion-service.xml" />
-	
-	<bean id="bulletin1" class="acme.entities.bulletins.Bulletin">
-		<property name="name" value="CorrederaBulletin"></property>
-		<property name="text" value="texto de ejemplo 1"></property>
-	</bean>
-
-
-	<bean id="bulletin2" class="acme.entities.bulletins.Bulletin">
-		<property name="name" value="San JoséBulletin"></property>
-		<property name="text" value="texto de ejemplo 2"></property>
-	</bean>
-	
-	<bean id="bulletin3" class="acme.entities.bulletins.Bulletin">
-		<property name="name" value="CordónBulletin"></property>
-		<property name="text" value="texto de ejemplo 3"></property>
-	</bean>
-	
-	<bean id="bulletin4" class="acme.entities.bulletins.Bulletin">
-		<property name="name" value="RuízBulletin"></property>
-		<property name="text" value="texto de ejemplo 4"></property>
-	</bean>
-	
-	<bean id="bulletin5" class="acme.entities.bulletins.Bulletin">
-		<property name="name" value="LópezBulletin"></property>
-		<property name="text" value="texto de ejemplo 5"></property>
-	</bean>
 </beans>

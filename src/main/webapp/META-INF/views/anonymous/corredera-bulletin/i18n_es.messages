@@ -9,10 +9,10 @@
 # they accept any liabilities with respect to them.
 
 
-anonymous.bulletin.label.name = Nombre:
-anonymous.bulletin.label.text = Texto:
-anonymous.bulletin.form.button.create = Publicar
-anonymous.bulletin.form.button.return = Volver
+anonymous.correderabulletin.label.nombre = Nombre:
+anonymous.correderabulletin.label.fundador = Fundador:
+anonymous.correderabulletin.form.button.create = Crear
+anonymous.correderabulletin.form.button.return = Volver
 
-anonymous.bulletin.list.label.name = Nombre
-anonymous.bulletin.list.label.text = Texto
+anonymous.correderabulletin.list.label.nombre = Nombre
+anonymous.correderabulletin.list.label.fundador = Fundador

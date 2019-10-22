@@ -34,8 +34,8 @@
              
              <acme:menu-separator />
 
-			<acme:menu-suboption code="master.menu.anonymous.bulletin" action="/anonymous/bulletin/create" />
-			<acme:menu-suboption code="master.menu.anonymous.list-bulletin" action="/anonymous/bulletin/list" />
+			<acme:menu-suboption code="master.menu.anonymous.corredera-bulletin" action="/anonymous/corredera-bulletin/create" />
+			<acme:menu-suboption code="master.menu.anonymous.list-corredera-bulletin" action="/anonymous/corredera-bulletin/list" />
 			<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/create" />
 			<acme:menu-suboption code="master.menu.anonymous.list-shout" action="/anonymous/shout/list" />
 		</acme:menu-option>

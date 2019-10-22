@@ -18,13 +18,13 @@
 
 <tiles-definitions>
 
-	<definition name="anonymous/bulletin/form" extends="master">		
-		<put-attribute name="body" type="template" value="../anonymous/bulletin/form.jsp" />
+	<definition name="anonymous/corredera-bulletin/form" extends="master">		
+		<put-attribute name="body" type="template" value="../anonymous/corredera-bulletin/form.jsp" />
 	</definition>
 	
 
-	<definition name="anonymous/bulletin/list" extends="master">		
-		<put-attribute name="body" type="template" value="../anonymous/bulletin/list.jsp" />
+	<definition name="anonymous/corredera-bulletin/list" extends="master">		
+		<put-attribute name="body" type="template" value="../anonymous/corredera-bulletin/list.jsp" />
 	</definition>
 	
 	

@@ -1,5 +1,5 @@
 
-package acme.entities.bulletins;
+package acme.entities.correderabulletins;
 
 import javax.persistence.Entity;
 import javax.validation.constraints.NotBlank;
@@ -11,14 +11,14 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Bulletin extends DomainEntity {
+public class CorrederaBulletin extends DomainEntity {
 
 	public static final long	serialVersionUID	= 1L;
 
 	@NotBlank
-	private String				name;
+	private String				nombre;
 
 	@NotBlank
-	private String				text;
+	private String				fundador;
 
 }

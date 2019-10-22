@@ -16,9 +16,9 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form>
-	<acme:form-textbox code="anonymous.bulletin.label.name" path="name"/>
-	<acme:form-textarea code="anonymous.bulletin.label.text" path="text"/>
+	<acme:form-textbox code="anonymous.corredera-bulletin.label.nombre" path="nombre"/>
+	<acme:form-textarea code="anonymous.corredera-bulletin.label.fundador" path="fundador"/>
 
-	<acme:form-submit code="anonymous.bulletin.form.button.create" action="/anonymous/bulletin/create"/>
-  	<acme:form-return code="anonymous.bulletin.form.button.return"/>
+	<acme:form-submit code="anonymous.corredera-bulletin.form.button.create" action="/anonymous/corredera-bulletin/create"/>
+  	<acme:form-return code="anonymous.corredera-bulletin.form.button.return"/>
 </acme:form>
