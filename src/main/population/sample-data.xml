@@ -40,4 +40,5 @@
 		<property name="dni" value="12345678A" />
 		<property name="descripcion" value="-Trabaja bien en equipo" />
 	</bean>
+  
 </beans>

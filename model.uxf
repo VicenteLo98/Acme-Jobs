@@ -299,6 +299,18 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
+
+      <x>182</x>
+      <y>378</y>
+      <w>154</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+CorrederaBulletin
+--
++ nombre: String(NotBlank)
++ fundador: String(NotBlank)</panel_attributes>
+
       <x>231</x>
       <y>308</y>
       <w>182</w>
@@ -310,6 +322,7 @@ LopezBulletin
 + nombre: String(NotBlank)
 + dni: String(NotBlank)
 + descripcion: String(NotBlank)</panel_attributes>
+  
     <additional_attributes/>
   </element>
 </diagram>

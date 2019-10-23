@@ -29,6 +29,11 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `corredera_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `fundador` varchar(255),
+
     create table `lopez_bulletin` (
        `id` integer not null,
         `version` integer not null,
