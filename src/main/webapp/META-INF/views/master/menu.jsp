@@ -36,6 +36,12 @@
 
 			<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/create" />
 			<acme:menu-suboption code="master.menu.anonymous.list-shout" action="/anonymous/shout/list" />
+			            
+			             <acme:menu-separator />
+		
+			<acme:menu-suboption code="master.menu.anonymous.ruiz-bulletin" action="/anonymous/ruiz-bulletin/create" />
+			<acme:menu-suboption code="master.menu.anonymous.list-ruiz-bulletin" action="/anonymous/ruiz-bulletin/list" />
+			
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
