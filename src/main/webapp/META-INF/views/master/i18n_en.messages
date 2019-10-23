@@ -39,6 +39,19 @@ master.menu.anonymous.shout = Shout!
 master.menu.anonymous.list-shout = List Shout!
 
 
+# master.menu.anonymous2 ######################################################
+master.menu.anonymous2 = Bulletins
+master.menu.anonymous2.lopez-bulletin = Lopez Bulletin
+master.menu.anonymous2.list-lopez-bulletin = List Lopez Bulletin
+master.menu.anonymous2.corredera-bulletin = Corredera Bulletin
+master.menu.anonymous2.list-corredera-bulletin = List Corredera Bulletin
+master.menu.anonymous2.cordon-bulletin = Cordon Bulletin!
+master.menu.anonymous2.list-cordon-bulletin = Cordon List Bulletin!
+master.menu.anonymous2.sanjose-bulletin = SanJose bulletin!
+master.menu.anonymous2.list-sanjose-bulletin = List SanJose Bulletin!
+master.menu.anonymous2.ruiz-bulletin = Ruiz Bulletin
+master.menu.anonymous2.list-ruiz-bulletin = List Ruiz Bulletin
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator

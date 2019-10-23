@@ -36,7 +36,20 @@ master.menu.anonymous.favourite-linkA = Enlace de Albcorare26
 master.menu.anonymous.favourite-linkD = Enlace de dansangar2
 master.menu.anonymous.favourite-linkAC = Enlace de Antcorlav
 master.menu.anonymous.shout = Grito
-master.menu.anonymous.list-shout = Lista de gritos
+master.menu.anonymous.list-shout = Lista de gritos 
+
+# master.menu.anonymous2 #######################################################
+master.menu.anonymous2 = Boletines
+master.menu.anonymous2.lopez-bulletin = Boletin de Lopez
+master.menu.anonymous2.list-lopez-bulletin = Lista de Boletines de Lopez
+master.menu.anonymous2.corredera-bulletin = Boletin de Corredera
+master.menu.anonymous2.list-corredera-bulletin = Lista de Boletines de Corredera
+master.menu.anonymous2.cordon-bulletin = Boletin de Cordon!
+master.menu.anonymous2.list-cordon-bulletin = Lista de Boletines de Cordon!
+master.menu.anonymous2.sanjose-bulletin = Boletin de SanJose
+master.menu.anonymous2.list-sanjose-bulletin = Lista de Boletines SanJose
+master.menu.anonymous2.ruiz-bulletin = Boletin de Ruiz
+master.menu.anonymous2.list-ruiz-bulletin = Lista de Bolletines Ruiz
 
 # master.menu.administrator ###################################################
 

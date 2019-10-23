@@ -5,6 +5,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>518</x>
+
       <y>168</y>
       <w>168</w>
       <h>42</h>
@@ -19,6 +20,7 @@ bg=yellow</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>539</x>
+
       <y>203</y>
       <w>70</w>
       <h>77</h>
@@ -295,5 +297,34 @@ m1=1
 m2=*
 has v</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+
+      <x>182</x>
+      <y>378</y>
+      <w>154</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+CorrederaBulletin
+--
++ nombre: String(NotBlank)
++ fundador: String(NotBlank)</panel_attributes>
+
+      <x>231</x>
+      <y>308</y>
+      <w>182</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+LopezBulletin
+--
++ nombre: String(NotBlank)
++ dni: String(NotBlank)
++ descripcion: String(NotBlank)</panel_attributes>
+  
+    <additional_attributes/>
   </element>
 </diagram>
