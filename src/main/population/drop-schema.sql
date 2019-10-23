@@ -28,6 +28,8 @@
     drop table if exists `consumer`;
 
     drop table if exists `corredera_bulletin`;
+    
+    drop table if exists `lopez_bulletin`;
 
     drop table if exists `provider`;
 

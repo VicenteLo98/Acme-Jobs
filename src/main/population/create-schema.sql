@@ -33,6 +33,12 @@
        `id` integer not null,
         `version` integer not null,
         `fundador` varchar(255),
+
+    create table `lopez_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `descripcion` varchar(255),
+        `dni` varchar(255),
         `nombre` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
