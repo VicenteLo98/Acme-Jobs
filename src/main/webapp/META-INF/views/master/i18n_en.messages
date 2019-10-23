@@ -49,6 +49,8 @@ master.menu.anonymous2.cordon-bulletin = Cordon Bulletin!
 master.menu.anonymous2.list-cordon-bulletin = Cordon List Bulletin!
 master.menu.anonymous2.sanjose-bulletin = SanJose bulletin!
 master.menu.anonymous2.list-sanjose-bulletin = List SanJose Bulletin!
+master.menu.anonymous.ruiz-bulletin = Ruiz Bulletin
+master.menu.anonymous.list-ruiz-bulletin = List Ruiz Bulletin
 
 # master.menu.administrator ###################################################
 
