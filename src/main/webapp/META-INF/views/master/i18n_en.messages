@@ -37,6 +37,8 @@ master.menu.anonymous.favourite-linkD = Favourite link dansangar2
 master.menu.anonymous.favourite-linkAC = Favourite link antcorlav
 master.menu.anonymous.shout = Shout!
 master.menu.anonymous.list-shout = List Shout!
+master.menu.anonymous.cordon-bulletin = Cordon Bulletin!
+master.menu.anonymous.list-cordon-bulletin = Cordon List Bulletin!
 
 
 # master.menu.administrator ###################################################

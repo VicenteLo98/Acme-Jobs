@@ -36,6 +36,11 @@
 
 			<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/create" />
 			<acme:menu-suboption code="master.menu.anonymous.list-shout" action="/anonymous/shout/list" />
+			
+			<acme:menu-separator/>
+			
+			<acme:menu-suboption code="master.menu.anonymous.cordon-bulletin" action="/anonymous/cordon-bulletin/create" />
+			<acme:menu-suboption code="master.menu.anonymous.list-cordon-bulletin" action="/anonymous/cordon-bulletin/list" />
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
