@@ -6,27 +6,27 @@ import java.util.Collection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.sanjosebulletin.SanJoseBulletin;
+import acme.entities.sanjosebulletin.SanjoseBulletin;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AnonymousBulletinListService implements AbstractListService<Anonymous, SanJoseBulletin> {
+public class AnonymousBulletinListService implements AbstractListService<Anonymous, SanjoseBulletin> {
 
 	@Autowired
 	AnonymousBulletinRepository repository;
 
 
 	@Override
-	public boolean authorise(final Request<SanJoseBulletin> request) {
+	public boolean authorise(final Request<SanjoseBulletin> request) {
 		assert request != null;
 		return true;
 	}
 
 	@Override
-	public void unbind(final Request<SanJoseBulletin> request, final SanJoseBulletin entity, final Model model) {
+	public void unbind(final Request<SanjoseBulletin> request, final SanjoseBulletin entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
@@ -34,9 +34,9 @@ public class AnonymousBulletinListService implements AbstractListService<Anonymo
 	}
 
 	@Override
-	public Collection<SanJoseBulletin> findMany(final Request<SanJoseBulletin> request) {
+	public Collection<SanjoseBulletin> findMany(final Request<SanjoseBulletin> request) {
 		assert request != null;
-		Collection<SanJoseBulletin> result;
+		Collection<SanjoseBulletin> result;
 		result = this.repository.findMany();
 
 		return result;

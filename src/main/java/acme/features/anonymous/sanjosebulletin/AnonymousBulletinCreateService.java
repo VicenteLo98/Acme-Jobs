@@ -4,7 +4,7 @@ package acme.features.anonymous.sanjosebulletin;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.sanjosebulletin.SanJoseBulletin;
+import acme.entities.sanjosebulletin.SanjoseBulletin;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
@@ -12,14 +12,14 @@ import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractCreateService;
 
 @Service
-public class AnonymousBulletinCreateService implements AbstractCreateService<Anonymous, SanJoseBulletin> {
+public class AnonymousBulletinCreateService implements AbstractCreateService<Anonymous, SanjoseBulletin> {
 
 	@Autowired
 	AnonymousBulletinRepository repository;
 
 
 	@Override
-	public void bind(final Request<SanJoseBulletin> request, final SanJoseBulletin entity, final Errors errors) {
+	public void bind(final Request<SanjoseBulletin> request, final SanjoseBulletin entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
@@ -27,12 +27,12 @@ public class AnonymousBulletinCreateService implements AbstractCreateService<Ano
 	}
 
 	@Override
-	public SanJoseBulletin instantiate(final Request<SanJoseBulletin> request) {
+	public SanjoseBulletin instantiate(final Request<SanjoseBulletin> request) {
 		assert request != null;
 
-		SanJoseBulletin result;
+		SanjoseBulletin result;
 
-		result = new SanJoseBulletin();
+		result = new SanjoseBulletin();
 		result.setName("Daniel");
 		result.setSecondname("San José García");
 		result.setCompany("Nintendo");
@@ -40,14 +40,14 @@ public class AnonymousBulletinCreateService implements AbstractCreateService<Ano
 	}
 
 	@Override
-	public void validate(final Request<SanJoseBulletin> request, final SanJoseBulletin entity, final Errors errors) {
+	public void validate(final Request<SanjoseBulletin> request, final SanjoseBulletin entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
 	}
 
 	@Override
-	public void create(final Request<SanJoseBulletin> request, final SanJoseBulletin entity) {
+	public void create(final Request<SanjoseBulletin> request, final SanjoseBulletin entity) {
 		assert request != null;
 		assert entity != null;
 
@@ -55,13 +55,13 @@ public class AnonymousBulletinCreateService implements AbstractCreateService<Ano
 	}
 
 	@Override
-	public boolean authorise(final Request<SanJoseBulletin> request) {
+	public boolean authorise(final Request<SanjoseBulletin> request) {
 		assert request != null;
 		return true;
 	}
 
 	@Override
-	public void unbind(final Request<SanJoseBulletin> request, final SanJoseBulletin entity, final Model model) {
+	public void unbind(final Request<SanjoseBulletin> request, final SanjoseBulletin entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;

@@ -36,9 +36,9 @@ master.menu.anonymous.favourite-linkA = Favourite link albcorare26
 master.menu.anonymous.favourite-linkD = Favourite link dansangar2
 master.menu.anonymous.favourite-linkAC = Favourite link antcorlav
 master.menu.anonymous.shout = Shout!
-master.menu.anonymous.list-shout = List Shout!
-
-
+master.menu.anonymous.list-shout = List Shout! 
+master.menu.anonymous.sanjose-bulletin = sanjose bulletin!
+master.menu.anonymous.list-sanjose-bulletin = List sanjose bulletin!
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator

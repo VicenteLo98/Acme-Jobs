@@ -20,8 +20,6 @@
 	<acme:form-textbox code="anonymous.sanjose-bulletin.label.secondname" path="secondname"/>
 	<acme:form-textbox code="anonymous.sanjose-bulletin.label.company" path="company"/>
 
-	<acme:form-submit code="anonymous.bulletin.form.button.create" action="/anonymous/bulletin/create"/>
-  	<acme:form-return code="anonymous.bulletin.form.button.return"/>
 	<acme:form-submit code="anonymous.sanjose-bulletin.form.button.create" action="/anonymous/sanjose-bulletin/create"/>
   	<acme:form-return code="anonymous.sanjose-bulletin.form.button.return"/>
 </acme:form>
