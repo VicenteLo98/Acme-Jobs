@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
@@ -47,8 +46,13 @@
 		<property name="company" value="Google" />
 		<property name="description" value="-Buena Empresa" />
 	</bean>
+	
+	<bean id="CorrederaBulletin01" class="acme.entities.correderabulletins.CorrederaBulletin">
+		<property name="nombre" value="Google" />
+		<property name="fundador" value="Antonio" />
+	</bean>
   
-  <bean id = "businessman01" class="acme.entities.sanjosebulletin.SanJoseBulletin">
+  <bean id = "businessman01" class="acme.entities.sanjosebulletin.SanjoseBulletin">
 		<property name="name" value="Daniel" />
 		<property name="secondname" value="San José García" />
 		<property name="company" value="Nintendo" />

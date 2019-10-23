@@ -41,14 +41,14 @@ master.menu.anonymous.list-shout = List Shout!
 
 # master.menu.anonymous2 ######################################################
 master.menu.anonymous2 = Bulletins
-master.menu.anonymous2.lopez-bulletin = LopezBulletin
-master.menu.anonymous2.list-lopez-bulletin = List LopezBulletin
-master.menu.anonymous2.corredera-bulletin = Create a company
-master.menu.anonymous2.list-corredera-bulletin = List of companies
+master.menu.anonymous2.lopez-bulletin = Lopez Bulletin
+master.menu.anonymous2.list-lopez-bulletin = List Lopez Bulletin
+master.menu.anonymous2.corredera-bulletin = Corredera Bulletin
+master.menu.anonymous2.list-corredera-bulletin = List Corredera Bulletin
 master.menu.anonymous2.cordon-bulletin = Cordon Bulletin!
 master.menu.anonymous2.list-cordon-bulletin = Cordon List Bulletin!
-master.menu.anonymous2.sanjose-bulletin = sanjose bulletin!
-master.menu.anonymous2.list-sanjose-bulletin = List sanjose bulletin!
+master.menu.anonymous2.sanjose-bulletin = SanJose bulletin!
+master.menu.anonymous2.list-sanjose-bulletin = List SanJose Bulletin!
 
 # master.menu.administrator ###################################################
 

@@ -12,10 +12,10 @@ import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractCreateService;
 
 @Service
-public class AnonymousBulletinCreateService implements AbstractCreateService<Anonymous, CorrederaBulletin> {
+public class AnonymousCorrederaBulletinCreateService implements AbstractCreateService<Anonymous, CorrederaBulletin> {
 
 	@Autowired
-	AnonymousBulletinRepository repository;
+	AnonymousCorrederaBulletinRepository repository;
 
 
 	@Override

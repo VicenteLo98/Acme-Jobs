@@ -10,7 +10,7 @@ import acme.entities.correderabulletins.CorrederaBulletin;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
-public interface AnonymousBulletinRepository extends AbstractRepository {
+public interface AnonymousCorrederaBulletinRepository extends AbstractRepository {
 
 	@Query("select s from CorrederaBulletin s")
 	Collection<CorrederaBulletin> findMany();

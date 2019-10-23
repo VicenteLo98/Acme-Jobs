@@ -14,13 +14,13 @@ import acme.framework.entities.Anonymous;
 
 @Controller
 @RequestMapping("/anonymous/corredera-bulletin/")
-public class AnonymousBulletinController extends AbstractController<Anonymous, CorrederaBulletin> {
+public class AnonymousCorrederaBulletinController extends AbstractController<Anonymous, CorrederaBulletin> {
 
 	@Autowired
-	private AnonymousBulletinListService	listService;
+	private AnonymousCorrederaBulletinListService	listService;
 
 	@Autowired
-	private AnonymousBulletinCreateService	createService;
+	private AnonymousCorrederaBulletinCreateService	createService;
 
 
 	@PostConstruct
