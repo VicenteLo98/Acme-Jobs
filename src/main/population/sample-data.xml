@@ -17,4 +17,24 @@
 
 	<import resource="conversion-service.xml" />
 
+	<!-- Shouts -->
+
+	<bean id = "businessman01" class="acme.entities.sanjosebulletin.SanJoseBulletin">
+		<property name="name" value="Daniel" />
+		<property name="secondname" value="San José García" />
+		<property name="company" value="Nintendo" />
+	</bean>
+	
+	<bean id = "businessman02" class="acme.entities.sanjosebulletin.SanJoseBulletin">
+		<property name="name" value="Antonio" />
+		<property name="secondname" value="Corredera Lavadero" />
+		<property name="company" value="Nontiendo" />
+	</bean>
+	
+	<bean id = "businessman03" class="acme.entities.sanjosebulletin.SanJoseBulletin">
+		<property name="name" value="Alberto" />
+		<property name="secondname" value="Cordon Noseque" />
+		<property name="company" value="Baches SL." />
+	</bean>
+	
 </beans>

@@ -33,7 +33,8 @@
              <acme:menu-suboption code="master.menu.anonymous.favourite-linkAC" action="https://open.spotify.com/browse/featured"/> <%--antcorlav--%>
              
              <acme:menu-separator />
-
+			<acme:menu-suboption code="master.menu.anonymous.sanjose-bulletin" action="/anonymous/sanjose-bulletin/create" />
+			<acme:menu-suboption code="master.menu.anonymous.list-sanjose-bulletin" action="/anonymous/sanjose-bulletin/list" />
 			<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/create" />
 			<acme:menu-suboption code="master.menu.anonymous.list-shout" action="/anonymous/shout/list" />
 		</acme:menu-option>

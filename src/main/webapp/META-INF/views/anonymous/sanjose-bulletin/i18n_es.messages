@@ -1,0 +1,10 @@
+anonymous.shout.label.name = Nombre:
+anonymous.shout.label.secondname = Apellidos:
+anonymous.shout.label.company = Empresa:
+
+anonymous.sanjose-bulletin.form.button.create = Crear
+anonymous.sanjose-bulletin.form.button.return = Volver
+
+anonymous.sanjose-bulletin.list.label.name = Nombre
+anonymous.sanjose-bulletin.list.label.secondname = Apellidos
+anonymous.sanjose-bulletin.list.label.company = Empresa
