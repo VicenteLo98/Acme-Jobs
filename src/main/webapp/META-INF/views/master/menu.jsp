@@ -37,6 +37,11 @@
 			<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/create" />
 			<acme:menu-suboption code="master.menu.anonymous.list-shout" action="/anonymous/shout/list" />
 		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.anonymous2" access="isAnonymous()">
+			<acme:menu-suboption code="master.menu.anonymous2.lopez-bulletin" action="/anonymous/lopez-bulletin/create" />
+			<acme:menu-suboption code="master.menu.anonymous2.list-lopez-bulletin" action="/anonymous/lopez-bulletin/list" />
+		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>

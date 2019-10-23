@@ -38,6 +38,10 @@ master.menu.anonymous.favourite-linkAC = Favourite link antcorlav
 master.menu.anonymous.shout = Shout!
 master.menu.anonymous.list-shout = List Shout!
 
+# master.menu.anonymous2 #######################################################
+master.menu.anonymous2 = Bulletins
+master.menu.anonymous2.lopez-bulletin = LopezBulletin
+master.menu.anonymous2.list-lopez-bulletin = List LopezBulletin
 
 # master.menu.administrator ###################################################
 
