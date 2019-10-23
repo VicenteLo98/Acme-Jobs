@@ -58,4 +58,10 @@
 		<property name="company" value="Nintendo" />
 	</bean>
 	
+	<bean id="RuizBulletin01" class="acme.entities.ruizbulletins.RuizBulletin">
+		<property name="job" value="Programador" />
+		<property name="company" value="Google" />
+		<property name="moment" value="2019/10/23 10:00" />
+	</bean>
+	
 </beans>

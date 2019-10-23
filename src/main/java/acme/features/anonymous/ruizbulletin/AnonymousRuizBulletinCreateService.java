@@ -1,12 +1,12 @@
 
-package acme.features.anonymous.bulletin;
+package acme.features.anonymous.ruizbulletin;
 
 import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.bulletins.RuizBulletin;
+import acme.entities.ruizbulletins.RuizBulletin;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;

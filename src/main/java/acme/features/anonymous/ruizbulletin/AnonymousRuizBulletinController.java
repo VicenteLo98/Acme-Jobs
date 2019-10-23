@@ -1,5 +1,5 @@
 
-package acme.features.anonymous.bulletin;
+package acme.features.anonymous.ruizbulletin;
 
 import javax.annotation.PostConstruct;
 
@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import acme.entities.bulletins.RuizBulletin;
+import acme.entities.ruizbulletins.RuizBulletin;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Anonymous;

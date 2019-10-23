@@ -1,5 +1,5 @@
 
-package acme.entities.bulletins;
+package acme.entities.ruizbulletins;
 
 import java.util.Date;
 

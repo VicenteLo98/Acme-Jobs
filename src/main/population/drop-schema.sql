@@ -35,6 +35,8 @@
 
     drop table if exists `provider`;
 
+    drop table if exists `ruiz_bulletin`;
+
     drop table if exists `sanjose_bulletin`;
 
     drop table if exists `shout`;
