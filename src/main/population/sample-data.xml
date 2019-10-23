@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
@@ -45,6 +46,12 @@
 		<property name="author" value="Alberto" />
 		<property name="company" value="Google" />
 		<property name="description" value="-Buena Empresa" />
+	</bean>
+  
+  <bean id = "businessman01" class="acme.entities.sanjosebulletin.SanJoseBulletin">
+		<property name="name" value="Daniel" />
+		<property name="secondname" value="San José García" />
+		<property name="company" value="Nintendo" />
 	</bean>
 	
 </beans>

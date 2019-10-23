@@ -54,6 +54,15 @@
         `nombre` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
+    
+    create table `sanjose_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `company` varchar(255),
+        `name` varchar(255),
+        `secondname` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
 
     create table `provider` (
        `id` integer not null,

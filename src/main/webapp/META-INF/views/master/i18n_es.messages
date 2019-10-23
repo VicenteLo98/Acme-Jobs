@@ -36,7 +36,9 @@ master.menu.anonymous.favourite-linkA = Enlace de Albcorare26
 master.menu.anonymous.favourite-linkD = Enlace de dansangar2
 master.menu.anonymous.favourite-linkAC = Enlace de Antcorlav
 master.menu.anonymous.shout = Grito
-master.menu.anonymous.list-shout = Lista de gritos
+master.menu.anonymous.list-shout = Lista de gritos 
+master.menu.anonymous.sanjose-bulletin = Boletin SanJose
+master.menu.anonymous.list-sanjose-bulletin = Lista de Boletines SanJose
 
 
 # master.menu.anonymous2 #######################################################
