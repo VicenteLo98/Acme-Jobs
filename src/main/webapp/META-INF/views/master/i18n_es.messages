@@ -35,17 +35,18 @@ master.menu.anonymous.favourite-linkV = Enlace de Viclopvaz1
 master.menu.anonymous.favourite-linkA = Enlace de Albcorare26
 master.menu.anonymous.favourite-linkD = Enlace de dansangar2
 master.menu.anonymous.favourite-linkAC = Enlace de Antcorlav
-master.menu.anonymous.corredera-bulletin = Crea una empresa
-master.menu.anonymous.list-corredera-bulletin = Lista de empresas
 master.menu.anonymous.shout = Grito
 master.menu.anonymous.list-shout = Lista de gritos
-master.menu.anonymous.cordon-bulletin = Boletin de Cordon!
-master.menu.anonymous.list-cordon-bulletin = Lista de Boletines de Cordon!
+
 
 # master.menu.anonymous2 #######################################################
 master.menu.anonymous2 = Boletines
 master.menu.anonymous2.lopez-bulletin = LopezBolletin
 master.menu.anonymous2.list-lopez-bulletin = Lista LopezBolletin
+master.menu.anonymous2.corredera-bulletin = Crea una empresa
+master.menu.anonymous2.list-corredera-bulletin = Lista de empresas
+master.menu.anonymous2.cordon-bulletin = Boletin de Cordon!
+master.menu.anonymous2.list-cordon-bulletin = Lista de Boletines de Cordon!
 
 # master.menu.administrator ###################################################
 

@@ -41,4 +41,10 @@
 		<property name="descripcion" value="-Trabaja bien en equipo" />
 	</bean>
   
+  <bean id="CordonBulletin01" class="acme.entities.cordonbulletins.CordonBulletin">
+		<property name="author" value="Alberto" />
+		<property name="company" value="Google" />
+		<property name="description" value="-Buena Empresa" />
+	</bean>
+	
 </beans>

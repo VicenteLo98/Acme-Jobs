@@ -1,3 +1,4 @@
+
     create table `administrator` (
        `id` integer not null,
         `version` integer not null,
@@ -28,19 +29,22 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-   create table `cordon_bulletin` (
+    create table `cordon_bulletin` (
        `id` integer not null,
         `version` integer not null,
         `author` varchar(255),
         `company` varchar(255),
         `description` varchar(255),
         primary key (`id`)
-    
+    ) engine=InnoDB;
 
     create table `corredera_bulletin` (
        `id` integer not null,
         `version` integer not null,
         `fundador` varchar(255),
+        `nombre` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
 
     create table `lopez_bulletin` (
        `id` integer not null,
