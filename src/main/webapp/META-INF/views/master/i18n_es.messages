@@ -40,6 +40,16 @@ master.menu.anonymous.list-shout = Lista de gritos
 master.menu.anonymous.sanjose-bulletin = Boletin SanJose
 master.menu.anonymous.list-sanjose-bulletin = Lista de Boletines SanJose
 
+
+# master.menu.anonymous2 #######################################################
+master.menu.anonymous2 = Boletines
+master.menu.anonymous2.lopez-bulletin = LopezBolletin
+master.menu.anonymous2.list-lopez-bulletin = Lista LopezBolletin
+master.menu.anonymous2.corredera-bulletin = Crea una empresa
+master.menu.anonymous2.list-corredera-bulletin = Lista de empresas
+master.menu.anonymous2.cordon-bulletin = Boletin de Cordon!
+master.menu.anonymous2.list-cordon-bulletin = Lista de Boletines de Cordon!
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador

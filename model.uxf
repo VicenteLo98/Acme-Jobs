@@ -5,7 +5,8 @@
     <id>UMLClass</id>
     <coordinates>
       <x>518</x>
-      <y>175</y>
+
+      <y>168</y>
       <w>168</w>
       <h>42</h>
     </coordinates>
@@ -19,7 +20,8 @@ bg=yellow</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>539</x>
-      <y>210</y>
+
+      <y>203</y>
       <w>70</w>
       <h>77</h>
     </coordinates>
@@ -30,7 +32,7 @@ bg=yellow</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>168</x>
-      <y>105</y>
+      <y>98</y>
       <w>154</w>
       <h>84</h>
     </coordinates>
@@ -50,7 +52,7 @@ bg=orange
     <id>UMLNote</id>
     <coordinates>
       <x>168</x>
-      <y>42</y>
+      <y>35</y>
       <w>168</w>
       <h>42</h>
     </coordinates>
@@ -63,7 +65,7 @@ bg=blue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>238</x>
-      <y>77</y>
+      <y>70</y>
       <w>21</w>
       <h>42</h>
     </coordinates>
@@ -75,7 +77,7 @@ bg=blue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>588</x>
-      <y>210</y>
+      <y>203</y>
       <w>70</w>
       <h>77</h>
     </coordinates>
@@ -86,7 +88,7 @@ bg=blue</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>763</x>
-      <y>182</y>
+      <y>175</y>
       <w>70</w>
       <h>42</h>
     </coordinates>
@@ -101,7 +103,7 @@ bg=yellow</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>763</x>
-      <y>126</y>
+      <y>119</y>
       <w>70</w>
       <h>42</h>
     </coordinates>
@@ -116,7 +118,7 @@ bg=yellow</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>763</x>
-      <y>231</y>
+      <y>224</y>
       <w>70</w>
       <h>42</h>
     </coordinates>
@@ -131,7 +133,7 @@ bg=yellow</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>679</x>
-      <y>154</y>
+      <y>147</y>
       <w>98</w>
       <h>56</h>
     </coordinates>
@@ -142,7 +144,7 @@ bg=yellow</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>679</x>
-      <y>189</y>
+      <y>182</y>
       <w>98</w>
       <h>21</h>
     </coordinates>
@@ -153,7 +155,7 @@ bg=yellow</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>679</x>
-      <y>189</y>
+      <y>182</y>
       <w>98</w>
       <h>63</h>
     </coordinates>
@@ -164,7 +166,7 @@ bg=yellow</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>168</x>
-      <y>203</y>
+      <y>196</y>
       <w>154</w>
       <h>49</h>
     </coordinates>
@@ -180,7 +182,7 @@ bg=orange</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>441</x>
-      <y>273</y>
+      <y>266</y>
       <w>140</w>
       <h>63</h>
     </coordinates>
@@ -195,7 +197,7 @@ Provider
     <id>UMLClass</id>
     <coordinates>
       <x>602</x>
-      <y>273</y>
+      <y>266</y>
       <w>147</w>
       <h>63</h>
     </coordinates>
@@ -210,7 +212,7 @@ Consumer
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>105</y>
+      <y>98</y>
       <w>154</w>
       <h>56</h>
     </coordinates>
@@ -227,7 +229,7 @@ bg=yellow</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>175</y>
+      <y>168</y>
       <w>154</w>
       <h>91</h>
     </coordinates>
@@ -247,7 +249,7 @@ bg=yellow</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>280</y>
+      <y>273</y>
       <w>154</w>
       <h>63</h>
     </coordinates>
@@ -264,7 +266,7 @@ bg=yellow</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>476</x>
-      <y>7</y>
+      <y>0</y>
       <w>238</w>
       <h>91</h>
     </coordinates>
@@ -286,7 +288,7 @@ UserAccount
     <id>Relation</id>
     <coordinates>
       <x>595</x>
-      <y>91</y>
+      <y>84</y>
       <w>49</w>
       <h>98</h>
     </coordinates>
@@ -295,5 +297,34 @@ m1=1
 m2=*
 has v</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+
+      <x>182</x>
+      <y>378</y>
+      <w>154</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+CorrederaBulletin
+--
++ nombre: String(NotBlank)
++ fundador: String(NotBlank)</panel_attributes>
+
+      <x>231</x>
+      <y>308</y>
+      <w>182</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+LopezBulletin
+--
++ nombre: String(NotBlank)
++ dni: String(NotBlank)
++ descripcion: String(NotBlank)</panel_attributes>
+  
+    <additional_attributes/>
   </element>
 </diagram>
