@@ -39,6 +39,8 @@ master.menu.anonymous.corredera-bulletin = Create a company
 master.menu.anonymous.list-corredera-bulletin = List of companies
 master.menu.anonymous.shout = Shout!
 master.menu.anonymous.list-shout = List Shout!
+master.menu.anonymous.cordon-bulletin = Cordon Bulletin!
+master.menu.anonymous.list-cordon-bulletin = Cordon List Bulletin!
 
 # master.menu.anonymous2 #######################################################
 master.menu.anonymous2 = Bulletins
